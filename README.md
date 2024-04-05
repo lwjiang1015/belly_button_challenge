@@ -28,7 +28,7 @@ Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/ to plot the 
     **Modify the example gauge code to account for values ranging from 0 through 9.
     **Update the chart whenever a new sample is selected.
 
-## 7. App is deployed to Github Pages; here is the link: https://lwjiang1015.github.io/belly-button-challenge/
+## 7. App is deployed to Github Pages; here is the link: https://lwjiang1015.github.io/belly_button_challenge/
 
 
 ## References/acknowledgement
