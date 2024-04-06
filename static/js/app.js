@@ -88,7 +88,7 @@ function visualise(testSubjectID){
         //Display each key-value pair from the metadata JSON object on the page
         //Use filter to get the data for the selected individual
         let sampleArray2 = metadata.filter(sample =>sample.id == testSubjectID);
-        //Select the initial sample
+        //Get the sample data
         let sample2 = sampleArray2[0];
 
         //Select the div tag with id "sample-metadata"
