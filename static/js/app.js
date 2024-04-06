@@ -34,9 +34,9 @@ function visualise(testSubjectID){
 
         //Use the filter to get the data for the selected individual
         let sampleArray1 = samples.filter(sample =>sample.id == testSubjectID);
-        //Sort the data by sample_values descending
+        //Sort the array by sample_values descending
         let sortedSampleArray1 = sampleArray1.sort((a,b) =>b.sample_values - a.sample_values);
-        //Select the initial sample
+        //Get the sample data
         let sample1 = sampleArray1[0];
         //Define each array needed for plotting
         let otu_ids = sample1.otu_ids;
